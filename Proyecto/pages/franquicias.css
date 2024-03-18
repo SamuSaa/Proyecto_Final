@@ -1,0 +1,30 @@
+body {
+    background-color: rgb(13, 105, 75);
+}
+
+#titulo {
+    text-align: center;
+    text-transform: uppercase;
+    text-shadow: 3px 2px #bbe22e;
+}
+
+.tabla {
+  background-color: rgb(219, 196, 196);
+  border-style:solid;
+  height:100px;
+  padding:10px;
+  border-radius:10px;
+  margin:10px;
+  margin-left: auto;
+  margin-right: auto;
+  
+}
+
+.grid {
+  display:grid;
+  grid-template-columns:1fr 1fr 1fr;
+  grid-template-rows:1fr;
+  gap:30em;
+  max-width:100%;
+  margin:50px;
+}

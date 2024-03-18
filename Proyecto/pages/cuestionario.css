@@ -1,0 +1,49 @@
+body {
+  background-image:url("/img/field.jpg");
+  background-size: cover; 
+  background-repeat: no-repeat;
+  font-weight: bold;
+}
+
+fieldset{
+  text-align:center;
+  margin-left:5%;
+  margin-right:5%;
+}
+
+.datos {
+  border-style:solid;
+  height:240px;
+  width:500px;
+  padding:10px;
+  border-radius:10px;
+  margin:10px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 260px;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 70px;
+  align-items: flex-start;
+}
+
+.container aside {
+  width: 30%;
+  margin: 0 10px;
+}
+
+.container aside img {
+  width: 100%;
+  height: 300px;
+  margin-bottom: 10px;
+}
+
+.container aside h2 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}

@@ -1,0 +1,173 @@
+@import 
+  url("https://fonts.googleapis.com/css?family=Roboto&effect=neon|outline|emboss|shadow-multiple|fire-animation");
+
+@import
+  url("https://fonts.googleapis.com/icon?family=Material+Icons");
+
+body {
+    background: linear-gradient(rgb(231, 230, 218),rgb(198, 199, 152));
+}
+
+#cabecera {
+  text-align:center;
+  text-transform: uppercase;
+  text-shadow: 2px 2px #FF0000;
+}
+
+nav {
+  background-color:rgb(241, 227, 72);
+  height:80px;
+  width:100%;
+  border-radius: 5px;
+  border: 2px solid black;
+}
+
+nav ul {
+  text-align: center;
+}
+
+nav ul li {
+  display:inline-block;
+  line-height:80px;
+  margin:0 80px;
+}
+
+nav ul li a {
+  color:rgb(0, 0, 0);
+  font-size:17px;
+  padding:7px 13px;
+  border-radius:3px;
+  text-transform:uppercase;
+  text-decoration: none;
+}
+
+a.active, a:hover {
+  background:#dee9f1;
+  transition:0.5s;
+  border:1px black;
+  border-radius:26px;
+  transform:scale(1.10);
+}
+
+.primero {
+  border-style:solid;
+  height:600px;
+  padding:10px;
+  border-radius:10px;
+  margin:10px;
+}
+
+.segundo {
+  border-style:solid;
+  height:600px;
+  padding:10px;
+  border-radius:10px;
+  margin:10px;
+}
+
+.tercero {
+  border-style:solid;
+  height:500px;
+  padding:10px;
+  border-radius:10px;
+  margin:10px;
+}
+
+.cuarto {
+  border-style:solid;
+  height:100px;
+  padding:10px;
+  border-radius:10px;
+  margin:10px;
+  text-align: center;
+}
+
+.quinto {
+  background-color: rgb(231, 227, 222);
+  border-style:solid;
+  height:100px;
+  padding:10px;
+  border-radius:10px;
+  margin:10px;
+  text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*Small devices (landscape phones, 576px and up)*/
+@media (max-width: 576px) { 
+	
+  
+
+}
+
+ /*Medium devices (tablets, 768px and up)*/
+@media (max-width: 768px) { 
+
+  body {
+    flex-basis:30%;
+  }
+
+
+}
+
+ /*Large devices (desktops, 992px and up)*/
+@media (max-width: 992px) { 
+
+  body {
+    flex-basis:50%;
+  }
+
+  #dos {
+    display: none;
+  }
+
+}
+
+ /*X-Large devices (large desktops, 1200px and up)*/
+@media (max-width: 1200px) { 
+  
+ 
+  body {
+    flex-basis:75%;
+  }
+
+  #tres {
+    display: none;
+  }
+
+  
+
+}
+
+ /*XX-Large devices (larger desktops, 1400px and up)*/
+@media (max-width: 1900px) { 
+
+  body {
+    flex-basis:95%;
+  }
+
+  #cuatro {
+    display: none;
+  }
+
+  #cinco {
+    display: none;
+  }
+}
